@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Folder where the files are located
+folder="/usr/share/gir-1.0/"
+
+# Filter to display only .gir files
+file_filter="*.gir"
+
+# Get the list of files with the filter and sort alphabetically
+file_list=$(find "$folder" -maxdepth 1 -name "$file_filter" -exec basename {} \; | sort)
+
+# Display the window with the list of files and filter field using Yad
+selected_file=$(yad --list --title=$"Select a File" --width=600 --height=800 --column=$"Files" $file_list --separator="" --print-column=1 --search-column=1)
+
+# Check if a file was selected or if the user cancelled
+if [ -n "$selected_file" ]; then
+    # Full path of the selected file
+    selected_path="$folder$selected_file"
+
+    # Path to the temporary destination folder
+    tmp_dest="/tmp/doc-from-gir-$selected_file"
+
+    # Create the temporary folder
+    mkdir -p "$tmp_dest"
+
+    # Generate the documentation using g-ir-doc-tool
+    ( g-ir-doc-tool -o "$tmp_dest" "$selected_path" ) | \
+    ( yad --progress --pulsate --auto-close --title=$"Generating Documentation" --text=$"Generating files..." --width=300 --height=100 --center )
+
+    # Ask where to save the documentation folder using Yad
+    save_path=$(yad --file --directory --title=$"Select a folder to save the documentation")
+
+    # Check if the user chose a location to save
+    if [ -n "$save_path" ]; then
+        # Convert the documentation folder to HTML using yelp-build
+        ( yelp-build html -o "$save_path" "$tmp_dest" ) | \
+        ( yad --progress --pulsate --auto-close --title=$"Converting to HTML" --text=$"Converting files to HTML..." --width=300 --height=100 --center )
+        
+        # Display a completion message
+        yad --info --title=$"Completed" --text=$"The documentation has been converted to HTML and saved in the folder:\n$save_path"
+    else
+        yad --warning --title=$"No location selected" --text=$"No location has been selected to save the HTML documentation."
+    fi
+
+    # Remove the temporary folder
+    rm -r "$tmp_dest"
+else
+    yad --warning --title=$"No file selected" --text=$"No file has been selected."
+fi

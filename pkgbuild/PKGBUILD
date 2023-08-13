@@ -1,8 +1,8 @@
 # Maintainer: Barnabé di Kartola <barnabedikartola@gmail.com>
 
-pkgname=biglinux-package-template
-pkgdesc="Package template for biglinux"
-# depends=('')
+pkgname=biglinux-make-gir-doc-html
+pkgdesc="Yad dialog to convert files from /usr/share/gir-1.0/ in html documentation"
+depends=('yad' 'yelp-build' 'gobject-introspection' )
 # makedepends=('')
 # conflicts=('')
 pkgver=$(date +%y.%m.%d)
