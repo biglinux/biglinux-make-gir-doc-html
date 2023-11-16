@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-make-gir-doc-html package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-make-gir-doc-html\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Select a File"
+msgstr "ファイルを選択"
+
+msgid "Files"
+msgstr "ファイル"
+
+msgid "Generating Documentation"
+msgstr "ドキュメントの生成"
+
+msgid "Generating files..."
+msgstr "ファイルを生成しています..."
+
+msgid "Select a folder to save the documentation"
+msgstr "ドキュメントを保存するフォルダを選択します"
+
+msgid "Converting to HTML"
+msgstr "HTML への変換"
+
+msgid "Converting files to HTML..."
+msgstr "ファイルをHTMLに変換しています..."
+
+msgid "Completed"
+msgstr "完了"
+
+msgid ""
+"The documentation has been converted to HTML and saved in the folder:\\n"
+"$save_path"
+msgstr ""
+"ドキュメントが HTML に変換され、フォルダに保存されました:\\n"
+"$save_path"
+
+msgid "No location selected"
+msgstr "場所が選択されていません"
+
+msgid "No location has been selected to save the HTML documentation."
+msgstr "HTML ドキュメントを保存する場所が選択されていません。"
+
+msgid "No file selected"
+msgstr "ファイルが選択されていません"
+
+msgid "No file has been selected."
+msgstr "ファイルが選択されていません。"

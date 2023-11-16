@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-make-gir-doc-html package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-make-gir-doc-html\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Select a File"
+msgstr "파일 선택"
+
+msgid "Files"
+msgstr "파일"
+
+msgid "Generating Documentation"
+msgstr "문서 생성"
+
+msgid "Generating files..."
+msgstr "파일 생성 중..."
+
+msgid "Select a folder to save the documentation"
+msgstr "문서를 저장할 폴더를 선택합니다."
+
+msgid "Converting to HTML"
+msgstr "HTML로 변환"
+
+msgid "Converting files to HTML..."
+msgstr "파일을 HTML로 변환하는 중..."
+
+msgid "Completed"
+msgstr "완료"
+
+msgid ""
+"The documentation has been converted to HTML and saved in the folder:\\n"
+"$save_path"
+msgstr ""
+"설명서가 HTML로 변환되어 다음 폴더에 저장되었습니다.\\n"
+"$save_path"
+
+msgid "No location selected"
+msgstr "선택한 위치가 없습니다."
+
+msgid "No location has been selected to save the HTML documentation."
+msgstr "HTML 문서를 저장할 위치를 선택하지 않았습니다."
+
+msgid "No file selected"
+msgstr "선택한 파일이 없습니다."
+
+msgid "No file has been selected."
+msgstr "선택한 파일이 없습니다."

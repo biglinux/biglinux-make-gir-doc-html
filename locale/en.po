@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-make-gir-doc-html package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-make-gir-doc-html\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Select a File"
+msgstr "Select a File"
+
+msgid "Files"
+msgstr "Files"
+
+msgid "Generating Documentation"
+msgstr "Generating Documentation"
+
+msgid "Generating files..."
+msgstr "Generating files..."
+
+msgid "Select a folder to save the documentation"
+msgstr "Select a folder to save the documentation"
+
+msgid "Converting to HTML"
+msgstr "Converting to HTML"
+
+msgid "Converting files to HTML..."
+msgstr "Converting files to HTML..."
+
+msgid "Completed"
+msgstr "Completed"
+
+msgid ""
+"The documentation has been converted to HTML and saved in the folder:\\n"
+"$save_path"
+msgstr ""
+"The documentation has been converted to HTML and saved in the folder:\\n"
+"$save_path"
+
+msgid "No location selected"
+msgstr "No location selected"
+
+msgid "No location has been selected to save the HTML documentation."
+msgstr "No location has been selected to save the HTML documentation."
+
+msgid "No file selected"
+msgstr "No file selected"
+
+msgid "No file has been selected."
+msgstr "No file has been selected."

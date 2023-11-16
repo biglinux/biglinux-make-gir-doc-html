@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-make-gir-doc-html package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-make-gir-doc-html\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Select a File"
+msgstr "Valige fail"
+
+msgid "Files"
+msgstr "Faile"
+
+msgid "Generating Documentation"
+msgstr "Dokumentatsiooni loomine"
+
+msgid "Generating files..."
+msgstr "Failide genereerimine..."
+
+msgid "Select a folder to save the documentation"
+msgstr "Valige dokumentatsioon salvestamiseks kaust"
+
+msgid "Converting to HTML"
+msgstr "HTML-i teisendamine"
+
+msgid "Converting files to HTML..."
+msgstr "Failide teisendamine HTML-iks..."
+
+msgid "Completed"
+msgstr "Lõpule viia"
+
+msgid ""
+"The documentation has been converted to HTML and saved in the folder:\\n"
+"$save_path"
+msgstr ""
+"Dokumentatsioon on teisendatud HTML-i ja salvestatud kausta:\\n"
+"$save_path"
+
+msgid "No location selected"
+msgstr "Asukohta pole valitud"
+
+msgid "No location has been selected to save the HTML documentation."
+msgstr "HTML-dokumentatsiooni salvestamiseks pole ühtegi asukohta valitud."
+
+msgid "No file selected"
+msgstr "Faili pole valitud"
+
+msgid "No file has been selected."
+msgstr "Ühtegi faili pole valitud."
